@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/astra_camera/share/common-lisp/ros/astra_camera/msg/astra_camera-msg.asd

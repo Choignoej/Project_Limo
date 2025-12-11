@@ -1,0 +1,8 @@
+prefix=/home/agilex/limo_ws/devel/.private/limo_examples
+
+Name: limo_examples
+Description: Description of limo_examples
+Version: 0.0.0
+Cflags: -I/home/agilex/limo_ws/devel/.private/limo_examples/include
+Libs: -L${prefix}/lib 
+Requires: 

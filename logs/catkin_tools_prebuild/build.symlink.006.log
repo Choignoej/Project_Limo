@@ -1,0 +1,12 @@
+Symlinking /home/agilex/limo_ws/devel/./setup.sh
+Symlinking /home/agilex/limo_ws/devel/./local_setup.bash
+Symlinking /home/agilex/limo_ws/devel/./cmake.lock
+Symlinking /home/agilex/limo_ws/devel/./setup.zsh
+Symlinking /home/agilex/limo_ws/devel/./env.sh
+Symlinking /home/agilex/limo_ws/devel/./local_setup.sh
+Symlinking /home/agilex/limo_ws/devel/./setup.bash
+Symlinking /home/agilex/limo_ws/devel/./local_setup.zsh
+Symlinking /home/agilex/limo_ws/devel/./_setup_util.py
+Symlinking /home/agilex/limo_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/agilex/limo_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/agilex/limo_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

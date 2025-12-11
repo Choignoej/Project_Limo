@@ -1,0 +1,65 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6621/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6621.dir/build.make CMakeFiles/cmTC_d6621.dir/build
+make[1]: Entering directory '/home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6621.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d6621.dir/src.c.o -c /home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d6621
+/home/agilex/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6621.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d6621.dir/src.c.o -o cmTC_d6621 
+CMakeFiles/cmTC_d6621.dir/src.c.o: In function `main':
+src.c:(.text+0x48): undefined reference to `pthread_create'
+src.c:(.text+0x50): undefined reference to `pthread_detach'
+src.c:(.text+0x58): undefined reference to `pthread_cancel'
+src.c:(.text+0x64): undefined reference to `pthread_join'
+src.c:(.text+0x74): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6621.dir/build.make:98: recipe for target 'cmTC_d6621' failed
+make[1]: *** [cmTC_d6621] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_d6621/fast' failed
+make: *** [cmTC_d6621/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25cfb/fast && /usr/bin/make  -f CMakeFiles/cmTC_25cfb.dir/build.make CMakeFiles/cmTC_25cfb.dir/build
+make[1]: Entering directory '/home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25cfb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_25cfb.dir/CheckFunctionExists.c.o -c /home/agilex/.local/lib/python3.6/site-packages/cmake/data/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25cfb
+/home/agilex/.local/lib/python3.6/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25cfb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_25cfb.dir/CheckFunctionExists.c.o -o cmTC_25cfb  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_25cfb.dir/build.make:98: recipe for target 'cmTC_25cfb' failed
+make[1]: *** [cmTC_25cfb] Error 1
+make[1]: Leaving directory '/home/agilex/limo_ws/build/limo_description/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_25cfb/fast' failed
+make: *** [cmTC_25cfb/fast] Error 2
+
+
+

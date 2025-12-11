@@ -1,0 +1,8 @@
+prefix=/home/agilex/limo_ws/devel/.private/limo_camera
+
+Name: limo_camera
+Description: Description of limo_camera
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

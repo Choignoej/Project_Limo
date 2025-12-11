@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/lifter_ctr/share/common-lisp/ros/lifter_ctr/msg/lifter_ctr-msg.asd

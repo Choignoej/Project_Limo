@@ -1,0 +1,354 @@
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network_kernels.cu(364): warning: variable "l" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_kernels.cu(263): warning: variable "MISH_THRESHOLD" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1086): warning: variable "out_index" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1130): warning: variable "step" was set but never used
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas_kernels.cu(1736): warning: variable "stage_id" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(140): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(245): warning: variable "cur_scale" was declared but never referenced
+
+/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dropout_layer_kernels.cu(262): warning: variable "block_prob" was declared but never referenced
+
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:[m[K In function ‘[01m[Kactivate[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRELU6[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+     [01;35m[Kswitch[m[K(a){
+     [01;35m[K^~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSWISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KHARD_MISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN_SOFTMAX[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN_SOFTMAX_MAXVAL[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:[m[K In function ‘[01m[Kgradient[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSWISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+     [01;35m[Kswitch[m[K(a){
+     [01;35m[K^~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KHARD_MISH[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.c:[m[K In function ‘[01m[Kfree_layer_custom[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.c:204:68:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K-Wparentheses[m[K]
+     if (l.delta_gpu && (l.optimized_memory < 1 || [01;35m[Kl.keep_delta_gpu && l.optimized_memory < 3[m[K)) cuda_free(l.delta_gpu), l.delta_gpu = NULL;
+                                                   [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_sim[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:597:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_sim(): sim isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", i, j, z);
+                                                          [01;35m[K~^[m[K
+                                                          [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:597:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_sim(): sim isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, j, z);
+                                                                  [01;35m[K~^[m[K
+                                                                  [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:597:75:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_sim(): sim isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, z);
+                                                                          [01;35m[K~^[m[K
+                                                                          [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_P_constrastive[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:611:68:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_P_constrastive(): P isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", i, j, z);
+                                                                   [01;35m[K~^[m[K
+                                                                   [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:611:76:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_P_constrastive(): P isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, j, z);
+                                                                           [01;35m[K~^[m[K
+                                                                           [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:611:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf(" Error: find_P_constrastive(): P isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, z);
+                                                                                   [01;35m[K~^[m[K
+                                                                                   [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive_f[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:651:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", i, l);
+                                                                              [01;35m[K~^[m[K
+                                                                              [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:651:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, l);
+                                                                                      [01;35m[K~^[m[K
+                                                                                      [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:780:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", i, l);
+                                                                              [01;35m[K~^[m[K
+                                                                              [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/blas.c:780:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, l);
+                                                                                      [01;35m[K~^[m[K
+                                                                                      [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/box.c:[m[K In function ‘[01m[Kbox_iou_kind[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/box.c:154:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMSE[m[K’ not handled in switch [[01;35m[K-Wswitch[m[K]
+     [01;35m[Kswitch[m[K(iou_kind) {
+     [01;35m[K^~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network.c:[m[K In function ‘[01m[Kresize_network[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network.c:615:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Knet->input_pinned_cpu, size * sizeof(float), cudaHostRegisterMapped))
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/network.c:1[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Kparse_network_cfg_custom[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/parser.c:1652:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Knet.input_pinned_cpu, size * sizeof(float), cudaHostRegisterMapped)) net.input_pinned_cpu_flag = 1;
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activation_layer.h:4[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/parser.c:6[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:[m[K In function ‘[01m[Kpre_allocate_pinned_memory[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:276:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("pre_allocate: size = [01;35m[K%Iu[m[K MB, num_of_blocks = %Iu, block_size = %Iu MB \n",
+                                      [01;35m[K~~^[m[K
+                                      [32m[K%Ilu[m[K
+             [32m[Ksize / (1024*1024)[m[K, num_of_blocks, pinned_block_size / (1024 * 1024));
+             [32m[K~~~~~~~~~~~~~~~~~~[m[K          
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:276:64:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[Ksize_t {aka const long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("pre_allocate: size = %Iu MB, num_of_blocks = [01;35m[K%Iu[m[K, block_size = %Iu MB \n",
+                                                              [01;35m[K~~^[m[K
+                                                              [32m[K%Ilu[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:276:82:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 4 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+         printf("pre_allocate: size = %Iu MB, num_of_blocks = %Iu, block_size = [01;35m[K%Iu[m[K MB \n",
+                                                                                [01;35m[K~~^[m[K
+                                                                                [32m[K%Ilu[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:286:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t {aka const long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+                 printf(" Allocated [01;35m[K%d[m[K pinned block \n", pinned_block_size);
+                                    [01;35m[K~^[m[K
+                                    [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:[m[K In function ‘[01m[Kcuda_make_array_pinned_preallocated[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:307:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t {aka long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf("\n Pinned block_id = [01;35m[K%d[m[K, filled = %f %% \n", pinned_block_id, filled);
+                                          [01;35m[K~^[m[K
+                                          [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:322:64:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf("Try to allocate new pinned memory, size = [01;35m[K%d[m[K MB \n", [32m[Ksize / (1024 * 1024)[m[K);
+                                                               [01;35m[K~^[m[K         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+                                                               [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/dark_cuda.c:328:63:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf("Try to allocate new pinned BLOCK, size = [01;35m[K%d[m[K MB \n", [32m[Ksize / (1024 * 1024)[m[K);
+                                                              [01;35m[K~^[m[K         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+                                                              [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_data_detection[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/data.c:1090:43:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kr_scale[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     float r1 = 0, r2 = 0, r3 = 0, r4 = 0, [01;35m[Kr_scale[m[K = 0;
+                                           [01;35m[K^~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kmake_contrastive_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/softmax_layer.c:202:101:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Ksize_t {aka const long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+     fprintf(stderr, "contrastive %4d x%4d x%4d x emb_size %4d x batch: %4d  classes = %4d, step = [01;35m[K%4d[m[K \n", w, h, l.n, l.embedding_size, batch, l.classes, step);
+                                                                                                   [01;35m[K~~^[m[K
+                                                                                                   [32m[K%4ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kforward_contrastive_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/softmax_layer.c:243:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmax_truth[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+                     float [01;35m[Kmax_truth[m[K = 0;
+                           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/softmax_layer.c:420:71:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t {aka const long unsigned int}[m[K’ [[01;35m[K-Wformat=[m[K]
+             printf(" Error: too large number of bboxes: contr_size = [01;35m[K%d[m[K > max_contr_size  = %d \n", contr_size, max_contr_size);
+                                                                      [01;35m[K~^[m[K
+                                                                      [32m[K%ld[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/utils.c:[m[K In function ‘[01m[Kcustom_hash[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/utils.c:1040:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
+     while ([01;35m[Kc[m[K = *str++)
+            [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Kprint_cocos[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/detector.c:477:29:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+                 fprintf(fp, [01;35m[Kbuff[m[K);
+                             [01;35m[K^~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Keliminate_bdd[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/detector.c:570:21:[m[K [01;35m[Kwarning: [m[Kstatement with no effect [[01;35m[K-Wunused-value[m[K]
+                     [01;35m[Kfor[m[K (k; buf[k + n] != '\0'; k++)
+                     [01;35m[K^~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:[m[K In function ‘[01m[Kmake_gaussian_yolo_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:71:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Kl.output, batch*l.outputs * sizeof(float), cudaHostRegisterMapped)) l.output_pinned = 1;
+                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:78:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Kl.delta, batch*l.outputs * sizeof(float), cudaHostRegisterMapped)) l.delta_pinned = 1;
+                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:[m[K In function ‘[01m[Kresize_gaussian_yolo_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:110:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&[m[Kl->output, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:119:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&[m[Kl->delta, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/gaussian_yolo_layer.c:7[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/http_stream.cpp:580:0[m[K:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/httplib.h:129:0:[m[K [01;35m[Kwarning: [m[K"INVALID_SOCKET" redefined
+ #define INVALID_SOCKET (-1)
+ 
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/http_stream.cpp:73:0:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+ #define INVALID_SOCKET -1
+ 
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/http_stream.cpp:[m[K In member function ‘[01m[Kbool MJPG_sender::write(const cv::Mat&)[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/http_stream.cpp:507:113:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 3 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+                 sprintf(head, "--mjpegstream\r\nContent-Type: image/jpeg\r\nContent-Length: %zu\r\n\r\n", outlen[01;35m[K)[m[K;
+                                                                                                                 [01;35m[K^[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kmake_yolo_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:66:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Kl.output, batch*l.outputs*sizeof(float), cudaHostRegisterMapped)) l.output_pinned = 1;
+                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:73:38:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+     if (cudaSuccess == cudaHostAlloc([01;35m[K&[m[Kl.delta, batch*l.outputs*sizeof(float), cudaHostRegisterMapped)) l.delta_pinned = 1;
+                                      [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kresize_yolo_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:103:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&[m[Kl->output, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:112:42:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[KcudaHostAlloc[m[K’ from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         if (cudaSuccess != cudaHostAlloc([01;35m[K&[m[Kl->delta, l->batch*l->outputs * sizeof(float), cudaHostRegisterMapped)) {
+                                          [01;35m[K^[m[K
+In file included from [01m[K/usr/local/cuda-10.2/include/cuda_runtime.h:96:0[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/include/darknet.h:41[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/activations.h:3[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/layer.h:4[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.h:5[m[K,
+                 from [01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:1[m[K:
+[01m[K/usr/local/cuda-10.2/include/cuda_runtime_api.h:4575:39:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kvoid **[m[K’ but argument is of type ‘[01m[Kfloat **[m[K’
+ extern __host__ cudaError_t CUDARTAPI [01;36m[KcudaHostAlloc[m[K(void **pHost, size_t size, unsigned int flags);
+                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kforward_yolo_layer[m[K’:
+[01m[K/home/agilex/limo_ws/src/src/darknet_ros/darknet/src/yolo_layer.c:390:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbest_match_t[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+                     int [01;35m[Kbest_match_t[m[K = 0;
+                         [01;35m[K^~~~~~~~~~~~[m[K

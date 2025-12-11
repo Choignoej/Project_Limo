@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/limo_opencv/share/limo_opencv/cmake/limo_opencvConfig-version.cmake

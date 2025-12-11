@@ -1,0 +1,13 @@
+[  0%] Built target _limo_base_generate_messages_check_deps_LimoStatus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 18%] Built target limo_base_generate_messages_py
+[ 27%] Built target limo_base_generate_messages_cpp
+[ 45%] Built target limo_base_generate_messages_eus
+[ 54%] Built target limo_base_generate_messages_lisp
+[ 63%] Built target limo_base_generate_messages_nodejs
+[100%] Built target limo_base_node
+[100%] Built target limo_base_generate_messages

@@ -1,0 +1,5 @@
+voice
+/home/agilex/limo_ws/devel/.private/voice/cmake.lock /home/agilex/limo_ws/devel/./cmake.lock
+/home/agilex/limo_ws/devel/.private/voice/lib/pkgconfig/voice.pc /home/agilex/limo_ws/devel/lib/pkgconfig/voice.pc
+/home/agilex/limo_ws/devel/.private/voice/share/voice/cmake/voiceConfig.cmake /home/agilex/limo_ws/devel/share/voice/cmake/voiceConfig.cmake
+/home/agilex/limo_ws/devel/.private/voice/share/voice/cmake/voiceConfig-version.cmake /home/agilex/limo_ws/devel/share/voice/cmake/voiceConfig-version.cmake

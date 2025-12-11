@@ -1,0 +1,8 @@
+prefix=/home/agilex/limo_ws/devel/.private/limo_application
+
+Name: limo_application
+Description: Description of limo_application
+Version: 0.0.0
+Cflags: -I/home/agilex/limo_ws/devel/.private/limo_application/include
+Libs: -L${prefix}/lib 
+Requires: 

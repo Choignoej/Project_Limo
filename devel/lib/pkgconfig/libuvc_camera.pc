@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/pkgconfig/libuvc_camera.pc

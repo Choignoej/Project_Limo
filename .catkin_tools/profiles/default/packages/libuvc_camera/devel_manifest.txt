@@ -1,0 +1,14 @@
+libuvc_ros/libuvc_camera
+/home/agilex/limo_ws/devel/.private/libuvc_camera/cmake.lock /home/agilex/limo_ws/devel/./cmake.lock
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/liblibuvc_camera_nodelet.so /home/agilex/limo_ws/devel/lib/liblibuvc_camera_nodelet.so
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/pkgconfig/libuvc_camera.pc /home/agilex/limo_ws/devel/lib/pkgconfig/libuvc_camera.pc
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/__init__.py /home/agilex/limo_ws/devel/lib/python2.7/dist-packages/libuvc_camera/__init__.py
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/cfg/__init__.py /home/agilex/limo_ws/devel/lib/python2.7/dist-packages/libuvc_camera/cfg/__init__.py
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/python2.7/dist-packages/libuvc_camera/cfg/UVCCameraConfig.py /home/agilex/limo_ws/devel/lib/python2.7/dist-packages/libuvc_camera/cfg/UVCCameraConfig.py
+/home/agilex/limo_ws/devel/.private/libuvc_camera/lib/libuvc_camera/camera_node /home/agilex/limo_ws/devel/lib/libuvc_camera/camera_node
+/home/agilex/limo_ws/devel/.private/libuvc_camera/include/libuvc_camera/UVCCameraConfig.h /home/agilex/limo_ws/devel/include/libuvc_camera/UVCCameraConfig.h
+/home/agilex/limo_ws/devel/.private/libuvc_camera/share/libuvc_camera/cmake/libuvc_cameraConfig.cmake /home/agilex/limo_ws/devel/share/libuvc_camera/cmake/libuvc_cameraConfig.cmake
+/home/agilex/limo_ws/devel/.private/libuvc_camera/share/libuvc_camera/cmake/libuvc_cameraConfig-version.cmake /home/agilex/limo_ws/devel/share/libuvc_camera/cmake/libuvc_cameraConfig-version.cmake
+/home/agilex/limo_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig.dox /home/agilex/limo_ws/devel/share/libuvc_camera/docs/UVCCameraConfig.dox
+/home/agilex/limo_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig-usage.dox /home/agilex/limo_ws/devel/share/libuvc_camera/docs/UVCCameraConfig-usage.dox
+/home/agilex/limo_ws/devel/.private/libuvc_camera/share/libuvc_camera/docs/UVCCameraConfig.wikidoc /home/agilex/limo_ws/devel/share/libuvc_camera/docs/UVCCameraConfig.wikidoc

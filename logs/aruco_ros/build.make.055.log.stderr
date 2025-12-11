@@ -1,0 +1,23 @@
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:55:1:[m[K [01;31m[Kerror: [m[K‘[01m[KArucoMarkerPublisher[m[K’ does not name a type; did you mean ‘[01m[K_Aruco_MarkerMap_h[m[K’?
+ [01;31m[KArucoMarkerPublisher[m[K* g_node_ptr;
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+ [32m[K_Aruco_MarkerMap_h[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:[m[K In function ‘[01m[Kvoid safe_close_csv()[m[K’:
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:312:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_node_ptr[m[K’ was not declared in this scope
+     if ([01;31m[Kg_node_ptr[m[K) {
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:312:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__mode_t[m[K’
+     if ([01;36m[Kg_node_ptr[m[K) {
+         [01;36m[K^~~~~~~~~~[m[K
+         [32m[K__mode_t[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:325:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_node_ptr[m[K’ was not declared in this scope
+   [01;31m[Kg_node_ptr[m[K = node_ptr;
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:325:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knode_ptr[m[K’
+   [01;36m[Kg_node_ptr[m[K = node_ptr;
+   [01;36m[K^~~~~~~~~~[m[K
+   [32m[Knode_ptr[m[K
+make[2]: *** [CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_publisher.dir/all] Error 2
+make: *** [all] Error 2

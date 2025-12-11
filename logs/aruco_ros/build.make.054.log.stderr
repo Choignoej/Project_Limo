@@ -1,0 +1,7 @@
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:314:64:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::_Bind_helper<false, void (ArucoMarkerPublisher::*)(), ArucoMarkerPublisher*>::type {aka std::_Bind<void (ArucoMarkerPublisher::*(ArucoMarkerPublisher*))()>}[m[K’ to ‘[01m[Kvoid (*)()[m[K’ for argument ‘[01m[K1[m[K’ to ‘[01m[Kint atexit(void (*)())[m[K’
+   std::atexit(std::bind(&ArucoMarkerPublisher::closeCsv, &node)[01;31m[K)[m[K;
+                                                                [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o] Error 1
+make[1]: *** [CMakeFiles/marker_publisher.dir/all] Error 2
+make: *** [all] Error 2

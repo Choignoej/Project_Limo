@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/lifter_ctr/share/roseus/ros/lifter_ctr/msg/lifter_mode.l

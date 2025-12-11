@@ -1,0 +1,3 @@
+[ 14%] Built target libuvc_camera_gencfg
+[ 57%] Built target camera_node
+[100%] Built target libuvc_camera_nodelet

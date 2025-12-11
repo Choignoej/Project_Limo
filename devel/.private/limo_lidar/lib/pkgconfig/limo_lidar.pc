@@ -1,0 +1,8 @@
+prefix=/home/agilex/limo_ws/devel/.private/limo_lidar
+
+Name: limo_lidar
+Description: Description of limo_lidar
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

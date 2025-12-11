@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/ydlidar_ros/lib/pkgconfig/ydlidar_ros.pc

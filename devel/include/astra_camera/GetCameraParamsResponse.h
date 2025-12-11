@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/astra_camera/include/astra_camera/GetCameraParamsResponse.h

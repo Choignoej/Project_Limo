@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/lifter_ctr/lib/python2.7/dist-packages/lifter_ctr/msg/_lifter_mode.py

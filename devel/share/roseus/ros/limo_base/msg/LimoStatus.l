@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/limo_base/share/roseus/ros/limo_base/msg/LimoStatus.l

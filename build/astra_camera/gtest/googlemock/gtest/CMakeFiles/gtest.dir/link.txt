@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -fPIC -O3 -O3 -DNDEBUG -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o   -L/home/agilex/limo_ws/build/astra_camera/gtest/googlemock/gtest/src  -Wl,-rpath,/home/agilex/limo_ws/build/astra_camera/gtest/googlemock/gtest/src -lpthread 

@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/lifter_ctr/share/gennodejs/ros/lifter_ctr/msg/_index.js

@@ -1,0 +1,92 @@
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  8%] Built target aruco_ros_gencfg
+[ 25%] Built target aruco_ros_utils
+[ 25%] Built target sensor_msgs_generate_messages_lisp
+[ 25%] Built target sensor_msgs_generate_messages_nodejs
+[ 25%] Built target geometry_msgs_generate_messages_cpp
+[ 25%] Built target sensor_msgs_generate_messages_py
+[ 25%] Built target geometry_msgs_generate_messages_lisp
+[ 25%] Built target geometry_msgs_generate_messages_eus
+[ 25%] Built target geometry_msgs_generate_messages_nodejs
+[ 25%] Built target geometry_msgs_generate_messages_py
+[ 25%] Built target std_msgs_generate_messages_eus
+[ 25%] Built target std_msgs_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_lisp
+[ 25%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_py
+[ 25%] Built target std_msgs_generate_messages_nodejs
+[ 25%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 25%] Built target dynamic_reconfigure_generate_messages_eus
+[ 25%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 25%] Built target dynamic_reconfigure_generate_messages_py
+[ 25%] Built target dynamic_reconfigure_gencfg
+[ 25%] Built target roscpp_generate_messages_cpp
+[ 25%] Built target roscpp_generate_messages_lisp
+[ 25%] Built target roscpp_generate_messages_eus
+[ 25%] Built target roscpp_generate_messages_nodejs
+[ 25%] Built target rosgraph_msgs_generate_messages_cpp
+[ 25%] Built target roscpp_generate_messages_py
+[ 25%] Built target rosgraph_msgs_generate_messages_eus
+[ 25%] Built target rosgraph_msgs_generate_messages_lisp
+[ 25%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 25%] Built target tf_generate_messages_cpp
+[ 25%] Built target rosgraph_msgs_generate_messages_py
+[ 25%] Built target tf_generate_messages_nodejs
+[ 25%] Built target tf_generate_messages_lisp
+[ 25%] Built target tf_generate_messages_eus
+[ 25%] Built target tf_generate_messages_py
+[ 25%] Built target actionlib_generate_messages_cpp
+[ 25%] Built target actionlib_generate_messages_eus
+[ 25%] Built target actionlib_generate_messages_lisp
+[ 25%] Built target actionlib_generate_messages_nodejs
+[ 25%] Built target actionlib_msgs_generate_messages_cpp
+[ 25%] Built target actionlib_msgs_generate_messages_eus
+[ 25%] Built target actionlib_generate_messages_py
+[ 25%] Built target actionlib_msgs_generate_messages_lisp
+[ 25%] Built target actionlib_msgs_generate_messages_nodejs
+[ 25%] Built target actionlib_msgs_generate_messages_py
+[ 25%] Built target tf2_msgs_generate_messages_cpp
+[ 25%] Built target tf2_msgs_generate_messages_lisp
+[ 25%] Built target tf2_msgs_generate_messages_eus
+[ 25%] Built target tf2_msgs_generate_messages_nodejs
+[ 25%] Built target aruco_msgs_generate_messages_cpp
+[ 25%] Built target tf2_msgs_generate_messages_py
+[ 25%] Built target aruco_msgs_generate_messages_eus
+[ 25%] Built target aruco_msgs_generate_messages_lisp
+[ 25%] Built target aruco_msgs_generate_messages_nodejs
+[ 25%] Built target visualization_msgs_generate_messages_eus
+[ 25%] Built target visualization_msgs_generate_messages_cpp
+[ 25%] Built target visualization_msgs_generate_messages_lisp
+[ 25%] Built target aruco_msgs_generate_messages_py
+[ 25%] Built target visualization_msgs_generate_messages_nodejs
+[ 25%] Built target visualization_msgs_generate_messages_py
+[ 50%] Built target double
+[ 75%] Built target single
+[ 83%] [32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o[0m
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:55:1:[m[K [01;31m[Kerror: [m[K‘[01m[KArucoMarkerPublisher[m[K’ does not name a type; did you mean ‘[01m[K_Aruco_MarkerMap_h[m[K’?
+ [01;31m[KArucoMarkerPublisher[m[K* g_node_ptr;
+ [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+ [32m[K_Aruco_MarkerMap_h[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:[m[K In function ‘[01m[Kvoid safe_close_csv()[m[K’:
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:312:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_node_ptr[m[K’ was not declared in this scope
+     if ([01;31m[Kg_node_ptr[m[K) {
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:312:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[K__mode_t[m[K’
+     if ([01;36m[Kg_node_ptr[m[K) {
+         [01;36m[K^~~~~~~~~~[m[K
+         [32m[K__mode_t[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:325:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_node_ptr[m[K’ was not declared in this scope
+   [01;31m[Kg_node_ptr[m[K = node_ptr;
+   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/agilex/limo_ws/src/aruco_ros/aruco_ros/src/marker_publish.cpp:325:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knode_ptr[m[K’
+   [01;36m[Kg_node_ptr[m[K = node_ptr;
+   [01;36m[K^~~~~~~~~~[m[K
+   [32m[Knode_ptr[m[K
+CMakeFiles/marker_publisher.dir/build.make:75: recipe for target 'CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o' failed
+make[2]: *** [CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o] Error 1
+CMakeFiles/Makefile2:2087: recipe for target 'CMakeFiles/marker_publisher.dir/all' failed
+make[1]: *** [CMakeFiles/marker_publisher.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:145: recipe for target 'all' failed

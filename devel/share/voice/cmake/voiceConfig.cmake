@@ -1,0 +1,1 @@
+/home/agilex/limo_ws/devel/.private/voice/share/voice/cmake/voiceConfig.cmake
