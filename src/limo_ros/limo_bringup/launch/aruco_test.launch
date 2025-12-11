@@ -1,0 +1,15 @@
+<launch>
+    <arg name="marker_size" default="0.1" />
+    <arg name="camera_frame" default="camera_color_optical_frame" />
+
+    <node name="aruco_detect" pkg="aruco_detect" type="aruco_detect">
+        <remap from="camera_info" to="/camera/color/camera_info" />
+        <remap from="image_raw"   to="/camera/color/image_rect_color" />
+        <param name="image_is_rectified" value="true" />
+        <param name="marker_size_in_meters" value="$(arg marker_size)" />
+        <param name="camera_frame" value="$(arg camera_frame)" />
+        <param name="publish_fiducial_transforms" value="true" />
+        <param name="publish_fiducial_images" value="true" />
+        <param name="marker_dictionary" value="DICT_4X4_1000" />
+    </node>
+</launch>

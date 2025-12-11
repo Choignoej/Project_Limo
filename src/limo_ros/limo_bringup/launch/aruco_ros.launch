@@ -1,0 +1,20 @@
+<launch>
+    <arg name="marker_size" default="0.1" />
+    
+     <node name="aruco_single" pkg="aruco_ros" type="marker_publisher" output="screen">
+        <remap from="image"       to="/rgb_camera/color/image_raw" />
+        <remap from="camera_info" to="/rgb_camera/color/camera_info" /> 
+        <remap from="/aruco_marker_publisher/markers" to="/aruco_single/marker" />
+
+        <param name="image_is_rectified" value="false"/>
+        <param name="marker_size"        value="$(arg marker_size)" />
+        <param name="reference_frame"    value="camera_color_optical_frame" />
+	<param name="camera_frame"       value="camera_color_optical_frame" />
+        <param name="marker_dictionary"  value="ARUCO" />
+    </node>    
+    <!-- 
+      3. [이 노드 추가] 지능형 관리 노드 (pose_corrector.py)
+         'limo_bringup' 패키지의 scripts 폴더에 pose_corrector.py가 있다고 가정합니다.
+    -->
+    <node name="pose_corrector" pkg="limo_bringup" type="pose_corrector.py" output="screen" />
+</launch>

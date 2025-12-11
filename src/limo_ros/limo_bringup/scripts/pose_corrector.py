@@ -1,0 +1,235 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import rospy
+import tf2_ros
+import tf
+from aruco_msgs.msg import MarkerArray
+from geometry_msgs.msg import PoseWithCovarianceStamped, Pose
+from tf.transformations import quaternion_from_euler, euler_from_quaternion, quaternion_multiply
+import numpy as np
+import time  # [NEW] 시간 측정을 위한 모듈
+import csv   # [NEW] CSV 저장을 위한 모듈
+import os    # [NEW] 파일 경로 설정을 위한 모듈
+
+CSV_FILE_PATH = os.path.expanduser('~/pose_correction_fusion_time.csv')
+
+# --- 1. [사용자 입력] 마커 절대 좌표 "정답" 목록 ---
+# [V-FINAL] 원본 (roll/pitch가 있는) Ground Truth로 복구
+# (V4/V6 로직이 ArUco->ROS 변환을 해주므로, 이 원본 GT가 올바르게 작동함)
+MARKER_GROUND_TRUTH = {
+    0: {'x': -2.67837643623,  'y': -0.778705239296, 'z': 0.185,  'roll': 0.0, 'pitch': -1.5708,  'yaw': 0.0}, # 0번 마커의 값
+    1: {'x': -0.557580113411,  'y': 0.940190792084, 'z': 0.195,  'roll': 1.5708, 'pitch': 0.0,  'yaw': 0.0}, # 1번 마커의 값
+    2: {'x': 1.95385062695,  'y': -0.450913339853, 'z': 0.195,  'roll': 0.0, 'pitch': -1.5708,  'yaw': 0.0}, # 2번 마커의 값
+    3: {'x': 3.29174733162,  'y': 1.87512040138, 'z': 0.21,  'roll': 1.5708, 'pitch': 0.0,  'yaw': 0.0}  # 3번 마커의 값
+}
+
+
+class PoseCorrector(object):
+    def __init__(self):
+        rospy.init_node('pose_corrector')
+        rospy.loginfo("Starting Pose Corrector (Intelligent Management Node)...")
+
+	# 1. CSV 파일 경로 설정 (사용자 홈 디렉토리 자동 인식)
+        self.csv_path = os.path.expanduser("~/calibraotor.csv")
+
+        # 2. 파일 초기화 (헤더 작성)
+        # 'w' 모드는 파일을 새로 만듭니다. 기존 데이터를 유지하려면 'a'를 쓰세요.
+        with open(self.csv_path, 'w') as f:
+            writer = csv.writer(f)
+            writer.writerow(["ROS_Timestamp", "Duration_ms"])
+
+        # TF 리스너 초기화
+        self.tf_buffer = tf2_ros.Buffer()
+        self.tf_listener = tf2_ros.TransformListener(self.tf_buffer)
+
+        # AMCL 위치 보정을 위한 Publisher
+        self.pose_pub = rospy.Publisher(
+            '/initialpose', 
+            PoseWithCovarianceStamped, 
+            queue_size=10
+        )
+
+        # aruco_ros가 발행하는 마커 정보를 구독
+        self.marker_sub = rospy.Subscriber(
+            '/aruco_single/markers',
+            MarkerArray, 
+            self.marker_callback,
+            queue_size=1
+        )
+
+        # [V4] Covariance 값을 0.05로 상향
+        self.covariance = [
+            0.05, 0.0, 0.0, 0.0, 0.0, 0.0,  # x 오차
+            0.0, 0.05, 0.0, 0.0, 0.0, 0.0,  # y 오차
+            0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+            0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+            0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+            0.0, 0.0, 0.0, 0.0, 0.0, 0.05  # yaw 오차
+        ]
+
+        # 10초 쿨타임을 위한 마지막 보정 시간 저장 변수
+        self.last_correction_time = rospy.Time(0)
+
+        rospy.loginfo("--- V-FINAL CORRECTOR IS RUNNING ---")
+
+
+    def marker_callback(self, marker_array):
+
+        start_time = time.time()
+
+        detected_ids = []
+
+        for marker in marker_array.markers:
+            try:
+                # 10초 쿨타임
+                now = rospy.Time.now()
+                if (now - self.last_correction_time).to_sec() < 10.0:
+                    rospy.logdebug_throttle(1.0, "Cooldown active, skipping marker.")
+                    continue
+
+                marker_id = marker.id
+
+                detected_ids.append(str(marker_id)) # ID 기록
+
+                # 마커 ID 확인
+                if marker_id not in MARKER_GROUND_TRUTH:
+                    rospy.logwarn_throttle(5.0, "Detected marker ID {}, but no ground truth pose defined.".format(marker_id))
+                    continue
+
+                # 1. 지도 기준 "정답" 마커 위치 (T_map_marker)
+                # [V-FINAL] roll/pitch가 포함된 '원본' GT 사용
+                gt = MARKER_GROUND_TRUTH[marker_id]
+                gt_pose = self.create_pose_from_ground_truth(gt)
+                gt_matrix = self.pose_to_matrix(gt_pose)
+
+                # 2. 카메라 기준 "감지된" 마커 위치 (T_cam_marker)
+                detected_pose = marker.pose.pose
+
+                # [V-FINAL-FIXED] ArUco -> ROS 좌표계 변환 행렬 (슬라이드 A)
+                # (X_ros = Z_aruco, Y_ros = -X_aruco, Z_ros = -Y_aruco)
+                T_correction = np.array([
+                    [ 0.0,  0.0,  1.0,  0.0],
+                    [-1.0,  0.0,  0.0,  0.0],
+                    [ 0.0, -1.0,  0.0,  0.0], # <--- 이 줄로 수정
+                    [ 0.0,  0.0,  0.0,  1.0]
+                ])
+
+                T_aruco_matrix = self.pose_to_matrix(detected_pose)
+                # T_ros(cam)_marker = T_ros_aruco * T_aruco(cam)_marker
+                detected_matrix = np.dot(T_correction, T_aruco_matrix)
+
+                # [V-FINAL] TF 조회 순서 변경 (T_camera_base)
+                trans = self.tf_buffer.lookup_transform(
+                    marker.header.frame_id,  # Target (Camera)
+                    'base_footprint',        # Source (Base)
+                    rospy.Time(0),
+                    rospy.Duration(1.0)
+                )
+                T_camera_base = self.transform_to_matrix(trans)
+
+                # 4. 로봇의 절대 좌표 계산 (슬라이드 3의 '정답 수식' 적용)
+                T_cam_marker_inv = np.linalg.inv(detected_matrix)
+                T_map_cam = np.dot(gt_matrix, T_cam_marker_inv)
+                map_to_base_matrix = np.dot(T_map_cam, T_camera_base)
+
+                # [DEBUG] ---------------------------------------------
+                # 최종 계산된 Pose의 RPY 값을 터미널에 출력
+                final_pose = self.matrix_to_pose(map_to_base_matrix)
+                q_final = final_pose.orientation
+                (roll_f, pitch_f, yaw_f) = euler_from_quaternion([q_final.x, q_final.y, q_final.z, q_final.w])
+                rospy.loginfo("--- [DEBUG V-FINAL] ID: {} (FINAL POSE) ---".format(marker_id))
+                rospy.loginfo("    Roll: {:.2f}, Pitch: {:.2f}, Yaw: {:.2f} (rad)".format(roll_f, pitch_f, yaw_f))
+                rospy.loginfo("    Yaw (deg): {:.2f}".format(np.degrees(yaw_f)))
+                # [DEBUG 끝] ------------------------------------------
+
+                # 5. AMCL에 발행할 메시지 생성
+                amcl_pose = PoseWithCovarianceStamped()
+                amcl_pose.header.stamp = rospy.Time.now()
+                amcl_pose.header.frame_id = "map"
+
+                amcl_pose.pose.pose = final_pose
+
+                # 로봇은 2D 평면을 움직이므로 Z 위치를 0으로 강제
+                amcl_pose.pose.pose.position.z = 0.0
+
+                amcl_pose.pose.covariance = self.covariance
+
+                # 6. /initialpose 토픽으로 발행!
+                self.pose_pub.publish(amcl_pose)
+                self.last_correction_time = now
+                rospy.loginfo("--- MARKER {} DETECTED! --- Repositioning AMCL (V-FINAL).".format(marker_id))
+
+            except Exception as e:
+                rospy.logerr("--- POSE_CORRECTOR FAILED (REAL ERROR) ---")
+                rospy.logerr(e)
+                rospy.logerr("-------------------------------------------")
+                continue
+
+        # [시간 측정 종료 및 저장]
+        end_time = time.time()
+        duration = end_time - start_time
+
+        try:
+            with open(self.csv_path, 'a') as f:
+                writer = csv.writer(f)
+                # 데이터 쓰기: [현재시간, 걸린시간]
+                writer.writerow(["{:.6f}".format(duration), "{:.3f}".format(duration)])
+        except Exception as e:
+            rospy.logerr("Failed to write to CSV: {}".format(e))
+
+
+
+
+    # --- TF 및 Pose 변환을 위한 헬퍼 함수 ---
+
+    def create_pose_from_ground_truth(self, gt):
+        pose = Pose()
+        pose.position.x = gt['x']
+        pose.position.y = gt['y']
+        pose.position.z = gt['z'] 
+
+        q = quaternion_from_euler(gt['roll'], gt['pitch'], gt['yaw'])
+        pose.orientation.x = q[0]
+        pose.orientation.y = q[1]
+        pose.orientation.z = q[2]
+        pose.orientation.w = q[3]
+        return pose
+
+    def pose_to_matrix(self, pose):
+        q = pose.orientation
+        translation = [pose.position.x, pose.position.y, pose.position.z]
+        rotation_matrix = tf.transformations.quaternion_matrix([q.x, q.y, q.z, q.w])
+        rotation_matrix[0:3, 3] = translation
+        return rotation_matrix
+
+    def transform_to_matrix(self, trans):
+        t = trans.transform.translation
+        r = trans.transform.rotation
+        translation = [t.x, t.y, t.z]
+        rotation_matrix = tf.transformations.quaternion_matrix([r.x, r.y, r.z, r.w])
+        rotation_matrix[0:3, 3] = translation
+        return rotation_matrix
+
+    def matrix_to_pose(self, matrix):
+        pose = Pose()
+        translation = tf.transformations.translation_from_matrix(matrix)
+        quaternion = tf.transformations.quaternion_from_matrix(matrix)
+        
+        pose.position.x = translation[0]
+        pose.position.y = translation[1]
+        pose.position.z = translation[2]
+        
+        pose.orientation.x = quaternion[0]
+        pose.orientation.y = quaternion[1]
+        pose.orientation.z = quaternion[2]
+        pose.orientation.w = quaternion[3]
+        return pose
+
+
+if __name__ == '__main__':
+    try:
+        PoseCorrector()
+        rospy.spin()
+    except rospy.ROSInterruptException:
+        pass
